@@ -1,196 +1,240 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>FlowXpert</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlowExpert | Transformamos tu Negocio</title>
+    <meta name="description" content="Optimiza procesos manuales y libera tiempo para lo que realmente importa.">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
+        <div class="container text-center text-md-left">
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 align-self-center text-right">
+                        <a href="#" class="text-white lead">Contáctanos</a>
+                    </div>
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
+            	Optimiza tu Negocio<br>
+            	Con Tecnología Inteligente
+            </h1>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                Ayudamos a empresas como la tuya a transformar procesos manuales en soluciones automáticas y eficientes.
+                <br> Libera a tu equipo de tareas repetitivas y centra tus esfuerzos en lo que realmente importa.
+            </p>
+            <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
+        </div>
+    </div>
+    <!-- three-blcok -->
+    <div class="container my-5 py-2">
+        <h2 class="text-center font-weight-bold my-5">Optimiza tus Operaciones</h2>
+        <div class="row">
+            <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-1.jpg" alt="Automatización" class="mx-auto">
+                <h4>Automatización</h4>
+                <p>Automatizamos procesos clave para ahorrar tiempo y reducir errores.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-2.jpg" alt="Gestión de Documentos" class="mx-auto">
+                <h4>Gestión de Documentos</h4>
+                <p>Centraliza y organiza toda tu documentación de forma eficiente.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center">
+                <img src="img/smart-protect-3.jpg" alt="Inteligencia Artificial" class="mx-auto">
+                <h4>Inteligencia Artificial</h4>
+                <p>Incorpora IA para mejorar la toma de decisiones y optimizar recursos.</p>
+            </div>
+        </div>
+    </div>
+    <!-- feature (skew background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-first">
+        <div class="container my-5">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6">
+                    <h2 class="font-weight-bold">Descubre Cómo Podemos Ayudarte</h2>
+                    <p class="my-4">Analizamos tu negocio, identificamos cuellos de botella y proponemos soluciones personalizadas
+                        <br> para transformar tus operaciones diarias con la tecnología adecuada.</p>
+                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Conoce Más</a>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center">
+                    <img src="img/feature-1.png" alt="Descubre Cómo Podemos Ayudarte" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature (green background) -->
+    <div class="jumbotron jumbotron-fluid feature" id="feature-last">
+        <div class="container">
+            <div class="row justify-content-between text-center text-md-left">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="col-md-6 flex-md-last">
+                    <h2 class="font-weight-bold">Seguro y Confiable</h2>
+                    <p class="my-4">
+                        Nos aseguramos de que nuestras soluciones sean seguras, confiables y fáciles de integrar
+                        <br> con los sistemas que ya usas en tu empresa.
+                    </p>
+                    <a href="#" class="btn my-4 font-weight-bold atlas-cta cta-blue">Conoce Más</a>
+                </div>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-md-6 align-self-center flex-md-first">
+                    <img src="img/feature-2.png" alt="Seguro y Confiable" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>FlowXpert</h1>
-						<p>Potencia tus Ideas y tu Negocio con Soluciones Inteligentes<br />
-						built by <a href="https://www.linkedin.com/in/javier-monasterio-solar-436245114/">@flowxpert</a>
-					</p>
-					</header>
+    <!-- Información sobre el negocio -->
+    <div class="container my-5 py-2" id="price-table">
+        <h2 class="text-center font-weight-bold d-block mb-3">Conoce más sobre nuestro negocio</h2>
+        <div class="row">
+            <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">STARTUP</h4>
+                <p class="font-weight-bold">Ideal para emprendedores</p>
+                <ul class="list-unstyled">
+                    <li>Asesoramiento inicial personalizado</li>
+                    <li>Soporte en la creación de estrategias</li>
+                    <li>Acceso a recursos exclusivos</li>
+                    <li>Equipo de expertos dedicado</li>
+                </ul>
+                <a href="#startup" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Más información</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5 rounded" id="price-table__premium">
+                <h4 class="my-4">PREMIUM</h4>
+                <p class="font-weight-bold">Pensado para negocios en crecimiento</p>
+                <ul class="list-unstyled">
+                    <li>Estrategias avanzadas de optimización</li>
+                    <li>Acceso a herramientas de análisis</li>
+                    <li>Formación para equipos</li>
+                    <li>Soporte técnico dedicado</li>
+                </ul>
+                <a href="#premium" class="btn my-4 font-weight-bold atlas-cta cta-green">Más información</a>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" class="col-md-4 text-center py-4 mt-5">
+                <h4 class="my-4">PROFESSIONAL</h4>
+                <p class="font-weight-bold">Para empresas consolidadas</p>
+                <ul class="list-unstyled">
+                    <li>Gestión integral de proyectos</li>
+                    <li>Innovación y desarrollo personalizado</li>
+                    <li>Soporte 24/7</li>
+                    <li>Acceso ilimitado a recursos</li>
+                </ul>
+                <a href="#professional" class="btn my-4 font-weight-bold atlas-cta cta-ghost">Más información</a>
+            </div>
+        </div>
+    </div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Inicio</a></li>
-							<li><a href="#first">FlowXpert</a></li>
-							<li><a href="#second">Casos de éxito</a></li>
-							<li><a href="#cta">Contacto</a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Get Started -->
-						<section id="cta" class="main special">
-							<header class="major">
-								<h2>Transforma tus ideas en soluciones inteligentes</h2>
-								<p>Llevamos tus ideas más allá y resolvemos tus desafíos tecnológicos.<br />
-									Contáctanos y descubre cómo podemos potenciar tu negocio juntos.</p>
-							</header>
-						</section>
-
-						<!-- Introduction -->
-							<section id="first" class="main special">
-								<header class="major">
-									<h2>Sobre FlowXpert</h2>
-								</header>
-								<div class="spotlight">
-									<div class="content">
-										<p>En FlowExpert, nuestra misión es ayudar a pequeñas y medianas empresas a alcanzar su máximo potencial mediante soluciones tecnológicas avanzadas y personalizadas. Somos expertos en automatización, optimización de procesos, digitalización de negocios, Machine Learning, Big Data, y de desarrollo de aplicaciones móviles y web a medida. Nuestra versatilidad y enfoque multidisciplinario, que incluye tecnologías innovadoras, nos permiten abordar cualquier desafío tecnológico y convertir ideas en realidades prácticas y eficientes.</p>
-										<p>Creemos en el poder de la tecnología para transformar negocios y simplificar la vida de quienes confían en nosotros. Desde optimizar procesos hasta automatizar tareas complejas, en FlowExpert estamos comprometidos en brindar soluciones que impulsen el crecimiento y mejoren el día a día de nuestros clientes.</p>
-									</div>
-								</div>
-								<ul class="features">
-									<li>
-										<span class="icon solid major style1 fa-code"></span>
-										<h3>Desarrollo a medida</h3>
-										<p>Creamos soluciones de software adaptadas a las necesidades específicas de cada negocio. Desde aplicaciones móviles hasta sistemas complejos de automatización, nuestro enfoque en desarrollo personalizado asegura resultados efectivos y ajustados a tus objetivos.</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Gestión eficiente</h3>
-										<p>Ayudamos a organizar y gestionar la información clave de tu empresa, optimizando procesos internos y reduciendo la carga administrativa. Nuestro compromiso es mejorar la eficiencia y facilitar el manejo de datos para que puedas concentrarte en el crecimiento de tu negocio.</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3>Calidad y valor</h3>
-										<p>Nos enfocamos en brindar soluciones sólidas y de alta calidad que perduren en el tiempo. Con cada proyecto, buscamos no solo cumplir con los estándares de excelencia, sino también crear un impacto positivo y duradero en tu negocio o empresa.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Conoce más sobre nosotros</a></li>
-									</ul>
-								</footer>
-							</section>
-
-
-
-						<!-- First Section -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Sobre el equipo</h2>
-										</header>
-										<p>Ruth Martín Jiménez - Nuestra Responsable de Comunicaciones y Ventas, con más de seis años de experiencia en el sector editorial y una sólida trayectoria en creación de contenidos y gestión de proyectos. Su habilidad para generar narrativas atractivas y establecer relaciones sólidas la convierte en un activo esencial para conectar nuestras soluciones tecnológicas de automatización con las necesidades de nuestros clientes.</p>
-									</div>
-									<span class="image"><img src="images/profile_ruth.jpg" alt="" /></span>
-								</div>
-
-								<div class="spotlight">
-									<div class="content">
-										<p>Javier Monasterio Solar - Nuestro ingeniero especializado en el desarrollo de soluciones tecnológicas avanzadas. Su experiencia abarca una amplia gama de áreas, incluyendo automatización y optimización de procesos, digitalización de negocios, machine learning, big data y desarrollo de aplicaciones móviles y web a medida. Ha liderado proyectos innovadores en procesamiento de voz, visión por computadora y análisis de datos. La versatilidad y el enfoque multidisciplinario de Javier le permiten ofrecer soluciones integrales que impulsan la transformación digital y la eficiencia en los procesos de negocio de nuestros clientes.</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Averigüa más</a></li>
-										</ul>
-									</div>
-									<span class="image"><img src="images/profile.jpg" alt="" /></span>
-								</div>
-							</section>
-
-
-
-
-						<!-- Second Section -->
-							<section id="second" class="main special">
-								<header class="major">
-									<h2>Nuestra experiencia</h2>
-									<p>Nuestra experiencia se basa en una sólida trayectoria en la implementación de soluciones tecnológicas avanzadas. Hemos liderado proyectos en inteligencia artificial, automatización de procesos, optimización e innovación, impulsando la digitalización y eficiencia de negocios en diversas industrias.</p>
-								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>23</strong> Proyectos
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>12</strong> Clientes
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>5</strong> Paises
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>7</strong> Casos de éxito
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>2</strong> Patentes
-									</li>
-								</ul>
-								<p class="content">En FlowExpert, nuestra experiencia abarca una amplia gama de proyectos diseñados para resolver necesidades específicas de nuestros clientes. Hemos desarrollado soluciones innovadoras que incluyen desde web scraping para analizar la demanda de servicios en Internet, análisis de reservas, aplicaciones móviles para el control de inventario y gestión de productos en fábricas, hasta automatización de procesos, extracción y carga de datos a gran escala. También hemos creado aplicaciones web para monitoreo de bases de datos y seguimiento de información en tiempo real, así como sistemas de rastreo mediante GPS para la gestión de flotas de vehículos. Cada proyecto refleja nuestro compromiso con la excelencia y la innovación en soluciones tecnológicas.</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Conoce más</a></li>
-									</ul>
-								</footer>
-							</section>
+    <!-- client -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-1.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-2.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-3.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-4.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-5.png" class="mx-auto d-block">
+                </div>
+                <div class="col-sm-4 col-md-2 py-2 align-self-center">
+                    <img src="img/client-6.png" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <!-- contact -->
+    <div class="jumbotron jumbotron-fluid" id="contact" style="background-image: url(img/contact-bk.jpg);">
+        <div class="container my-5">
+            <div class="row justify-content-between">
+                <div class="col-md-6 text-white">
+                    <h2 class="font-weight-bold">Contáctanos</h2>
+                    <p class="my-4">
+                        Estamos aquí para resolver tus dudas, escuchar tus propuestas y colaborar contigo. 
+                        No dudes en ponerte en contacto con nosotros.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>Email: <a href="mailto:info@flowxpert.com" class="text-white">info@flowxpert.com</a></li>
+                        <li>Teléfono: <a href="tel:+34637893640" class="text-white">637 893 640</a></li>
+                        <li>Dirección: Martínez Izquierdo 53, Madrid</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Tu Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Tu Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Escribe tu email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+	<!-- copyright -->
+	<div class="jumbotron jumbotron-fluid" id="copyright">
+        <div class="container">
+            <div class="row justify-content-between">
+            	<div class="col-md-6 text-white align-self-center text-center text-md-left my-2">
+                    2024 FlowExpert. Todos los derechos reservados.
+                </div>
+                <div class="col-md-6 align-self-center text-center text-md-right my-2" id="social-media">
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-medium" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" class="d-inline-block text-center ml-2">
+                    	<i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+      });
+    </script>
+</body>
 
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Misión</h2>
-							<p>Nuestra misión es transformar desafíos en soluciones tecnológicas eficientes, optimizando procesos y automatizando tareas para impulsar el crecimiento de pequeñas y medianas empresas y facilitar el día a día de quienes confían en nuestro trabajo.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Aprende más</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Contacto</h2>
-							<dl class="alt">
-								<dt>Dirección</dt>
-								<dd>Madrid &bull; ESP</dd>
-								<dt>Móvil</dt>
-								<dd>(+34) 637 89 36 40</dd>
-								<dt>Email</dt>
-								<dd><a href="#">contacto@flowxpert.es</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin alt"><span class="label">Linkedin</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
